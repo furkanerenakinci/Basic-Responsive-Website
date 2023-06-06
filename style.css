@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+/*font-family: 'Poppins', sans-serif;*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#menu {
+    display: flex;
+    background-color: rgb(44, 44, 230);
+    padding: 15px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.site {
+    text-decoration:none;
+    letter-spacing: 2px;
+    padding: 5px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.links a {
+    text-decoration: none;
+    letter-spacing: 1px;
+    border: 1px solid white;
+    padding: 5px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: large;
+    margin: 5px;
+    transition: all 0.6s;
+}
+
+.links a:hover {
+    color: rgb(44, 44, 230);
+    background-color:rgb(226, 224, 224);
+}
+
+/*ORTA KISIM*/
+
+#mid1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("img/img1.jpg");
+    width: 100%;
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+}
+ .yazi1 p {
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin: 15px;
+ }
+
+.yazi2 a {
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border: 1px solid white;
+    padding: 5px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: larger;
+    margin: 5px;
+    transition: all 0.6s;
+}
+
+.yazi2 a:hover {
+    color: rgb(44, 44, 230);
+    background-color:rgb(226, 224, 224);
+}
+
+
+#mid2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    background-color: cornflowerblue;
+}
+
+.images {
+    width: 40%;
+}
+
+.text {
+    color: white;
+    font-size: large;
+    font-family: 'Poppins', sans-serif;
+    margin: 5px;
+}
+
+
+.text1 {
+    color: white;
+    font-size: small;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+/*SON*/
+
+#foot {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: black;
+}
+
+.foot1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+}
+
+.foot-content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 5px;
+    margin: 10px;
+}
+
+.foot2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+}
+
+.icons {
+    font-size: 20px;
+    margin: 10px;
+    color: white;
+}
+
+.icons i {
+    margin: 5px;
+    padding: 5px;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    #menu {
+        padding: 10px;
+        justify-content: space-between;
+    }
+
+    .links a {
+        padding: 3px;
+        margin: 3px;
+        font-size: medium;
+    }
+
+    
+    .site {
+        letter-spacing: 1px;
+        padding: 3px;
+        font-family: 'Poppins', sans-serif;
+        color: white;
+        font-size: large;
+        font-weight: bold;
+    }
+
+    .content {
+        width: 40%;
+    }
+
+    .images {
+        width: 30%;
+    }
+
+    #mid1 {
+        height: 30vh;
+    }
+
+    .yazi1 {
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    #menu {
+        padding: 7px;
+        justify-content: space-between;
+    }
+
+    .links a {
+        padding: 1px;
+        margin: 1px;
+        font-size: small;
+    }
+
+    .site {
+        letter-spacing: 1px;
+        padding: 1px;
+        font-family: 'Poppins', sans-serif;
+        color: white;
+        font-size: medium;
+        font-weight: bold;
+    }
+
+    .content {
+        width: 85%;
+    }
+
+    .images {
+        width: 30%;
+    }
+    .yazi1 {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    #mid1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+ 
+}
